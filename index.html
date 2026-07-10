@@ -1,0 +1,969 @@
+<html>
+<head>
+<title>
+GOVT ITI BANGOLI 
+</title>
+
+<style> nav a {
+color:black;
+text-decoration:none;
+margin:15px;
+font-size:40px;
+align:center;
+
+
+
+}
+.banner img
+{
+width:100%;
+height:500px;
+object-fit:cover;
+display:block;
+}
+
+
+
+pre{
+color:white;
+font-size:35px;
+border:3px solid;
+background:black;
+}
+
+p,h1{
+color:black;
+font-size:35px;
+}
+#sk{
+color:purple;
+font-size:35px;
+}
+#pk
+color:red;
+font-size:35px;
+}
+
+.sk{
+color:purple;
+font-size:35px;
+}
+
+.banner{
+position:relative;
+width:100%;
+}
+.banner img{
+widht:100%;
+height:400px;
+object-fit:cover;
+}
+.title{
+position:absolute;
+top:80;
+left:60px;
+color:white;
+font-size:50px;
+font-weight:bold;
+}
+
+
+
+
+
+body{
+    font-family: Arial, sans-serif;
+    background:#c9af98;
+    color:skyblue;
+    transition: 0.4s;
+    text-align:center;
+
+}
+
+.dark-mode{
+    background:purple;
+    color: white;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.teacher-box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:30px;   /* फोटो के बीच दूरी */
+    flex-wrap:wrap;
+}
+.teacher{
+    text-align: center;
+}
+.teacher img{
+    width: 180px;
+    height: 220px;
+    object-fit:cover;
+  border-radius:18px;
+ border:3px solid white;
+
+
+}
+.teacher h3
+{
+    margin-top:10px;
+}
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    background: #fff8dc;
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+    font-size: 22px;
+    font-weight:bold;
+transition:0.3s;
+}
+
+.navbar a:hover{
+    color: red;
+    transform:scale;(1.1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#clock{
+       color:white;
+background:black;
+       font-size:18px;
+
+      font-family:Arial;
+          
+     display:inline-block;
+ 
+    padding: 10px 20px;
+ 
+    border: none;
+    border-radius:5px;
+    border:4px solid;
+    cursor: pointer;
+
+
+        }
+
+
+.copyright{
+    text-align:center;
+    margin-top:20px;
+    font-size:18px;
+color:green;
+}
+
+
+
+
+
+
+*{
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+
+
+
+.calendar{
+width:380px;
+background:#fff;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,.3);
+overflow:hidden;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#0d6efd;
+color:white;
+padding:15px;
+}
+
+.header button{
+background:white;
+color:#0d6efd;
+border:none;
+padding:8px 15px;
+font-size:18px;
+cursor:pointer;
+border-radius:5px;
+}
+
+.header button:hover{
+background:#198754;
+color:white;
+}
+
+.weekdays{
+display:grid;
+grid-template-columns:repeat(7,1fr);
+background:#198754;
+}
+
+.weekdays div{
+padding:12px;
+text-align:center;
+color:white;
+font-weight:bold;
+}
+
+.days{
+display:grid;
+grid-template-columns:repeat(7,1fr);
+}
+
+.days div{
+padding:15px;
+text-align:center;
+border:1px solid #ddd;
+}
+
+.today{
+background:red;
+color:white;
+border-radius:50%;
+font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<meta charset="UTF-"8">
+<meta name ="vieport" content="widht=device-width, initial-scale=1.0">
+
+</head>
+
+<body  text=white link="red" >
+
+<header> <img src="iti logo.png" align="left">
+
+<img src="iti logo.png" align="right">
+ 
+<h1 align="center"> शासकीय औद्योगिक  प्रशिक्षण संस्था बंगोली </h2>
+<p align="center" size=10px> ग्राम - बंगोली, सारागांव, थाना -खरोरा ,जिला- रायपुर (छ०ग०)</p>
+
+<br>
+
+
+<hr color =redsize=05>
+
+<br>
+
+
+<div class="teacher-box">
+    <div class="teacher">
+         <img src="netam sir.jpeg" alt="Teacher 1 ">
+        <h3 style="color:black;font-size:25px;" >Mr. Narottam Netam</h3>
+<p style="color:green;"> (Principal)</p>
+    </div>
+    
+        <div class="teacher">
+        <img src="kr sahu.jpeg"  alt="Teacher 3">
+        <h3 style="color:black;font-size:25px;">Mr. Khemraj Sahu</h3>
+<p style="color:green;">(Training Officer)</p>
+    </div>
+
+<div class="teacher">
+<img src="mukesh.jpeg" alt="Teacher 2">
+<br>
+        <h3 style="color:black;font-size:25px;"> Mr. Mukesh Kumar Ahir </h3>
+<p  style="color:green;">(Training Officer)</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</header>
+
+
+
+
+<nav class="navbar">
+<a href="home.HTML">HOME </a>
+<a href="ABOUT US.HTML">ABOUT</a>
+<a href="COURSE.HTML"> COURSES</a>
+<a href="GALLREY.HTML">GALLERY</a>
+<a href="CONTECT.html">CONTACT</a>
+
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<hr>
+
+
+
+
+<div class="banner">
+<img src ="iti home.jpg">
+<div class="title">
+welcome to 
+<br>
+govt it bangoli
+</div>
+</div>
+
+
+<hr>
+<div class="calender-section">
+<div class="calendar">
+
+<div class="header">
+
+<button id="prev">&#10094;</button>
+
+<h2 id="monthYear"></h2>
+
+<button id="next">&#10095;</button>
+
+</div>
+
+<div class="weekdays">
+
+<div>Sun</div>
+<div>Mon</div>
+<div>Tue</div>
+<div>Wed</div>
+<div>Thu</div>
+<div>Fri</div>
+<div>Sat</div>
+
+</div>
+
+<div class="days" id="days"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="display:flex; gap:50px; color:white;" >
+
+<div style="border:2px solid black; width:500px; padding:5px; text-align:center; color:white; background-color:darkblue;">
+
+<font style="color:white;
+text-align:center; 
+font-size:20px "> 
+सूचना  पटल   </FONT>
+
+<br>
+<ol> 
+<li> 
+प्रवेश प्रक्रिया जारी है। इच्छुक अभ्यर्थी अंतिम तिथि से पहले आवेदन करें।<br><br>
+</li>
+<li> 
+📅सभी विद्यार्थियों को सूचित किया जाता है कि नियमित कक्षाएँ निर्धारित समयानुसार संचालित की जा रही हैं।<br><br>
+</li>
+<li> 
+📄सभी छात्र-छात्राएँ संस्थान की वेबसाइट पर नियमित रूप से नवीन सूचनाएँ देखते रहें। <br> <br>
+</li>
+
+<li> 
+📄 किसी भी महत्वपूर्ण सूचना के लिए संस्थान के सूचना पट्ट एवं वेबसाइट का नियमित अवलोकन करें।                                                                    <br>
+</li>
+</ol>
+
+
+</div>
+
+<div style="border:2px solid black; width:300px; padding:5px; text-align:center;
+color:white; background-color:grey;">
+
+<font style="color:red;
+text-align:center;
+font-size:25px ">
+महत्वपूर्ण पोर्टल लिंक 
+</font>
+<br>
+<br>
+<marquee>
+<ol> 
+<li><a href="https://cgiti.admissions.nic.in/l" target="_blank"  style="color:blue; font-size:25px;"> CG ITI Admission Portal </a>
+</li>
+<hr color="pink"> 
+
+
+
+<li> <a href="https://www.skillindiadigital.gov.in/home" target="_blank" style="color:blue; font-size:25px;">Skill India Digital Hub (SIDH) </a>
+</li>
+
+<hr color="green"> 
+
+
+<li><a href="https://www.msde.gov.in/"target="_blank" style="color:blue; font-size:25px;">Ministry of Skill Development and Entrepreneurship (MSDE) </a>
+</li>
+</ol>
+
+</marquee>
+
+ </div>
+
+
+<div style="border:2px solid black; width:300px; padding:5px; text-align:center; color:white; background-color:black">
+<font style="color:white;
+text-align:center;font-size:25px">   about us </font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol> 
+<li> govt iti bangoli was established in 2023,with
+a vision to cater not only needs of people</li>
+<hr color="red"> 
+<br>
+
+<br>
+ 
+<li> but to the people belonging to defferent societ.
+the institute was started with the aim of making quality 
+education within the reach of caste and creed of everyone.
+</li>
+
+</ol>
+
+    </div>
+
+</div>
+
+
+
+
+<marquee style="font-size:25px;color:red; "><h1 style="color:yellow;">"शासकीय औद्योगिक प्रशिक्षण संस्था बंगोली में आपका  हार्दिक स्वागत है :"</h1></marquee>
+<p>Dark Mode और Light Mode </p>
+
+<button onclick="toggleMode()" id="btn">
+🌙 Dark Mode
+</button>
+&nbsp;
+<br><br>
+<div id="clock"> <p> TIME </p> </div>
+<p STYLE=COLOR:GREEN;> TIME </p>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+<marquee bgcolor="lightblue" behavior="alternate" direction="left">
+<div align="left">
+<figure style="text-align:left; font-size:30px;color:YELLOW;">
+<img src="sidh.png" width=17% height=200px
+     alt="Sample Image" 
+     style="cursor:pointer;" 
+     onclick="openImageLink()"/>
+<figcaption>SIDH PORTAL  </figcaption>
+
+</div>
+</MARQUEE>
+
+<br>
+<marquee bgcolor="black" behavior="alternate" direction="left" scrollamount="10" scrolldelay="100">
+<div align="left"><figure style="text-align:left; font-size:30px;color:YELLOW;">
+<img src ="dgt.jpg" width=17% height=200px
+     alt="Sample Image" 
+     style="cursor:pointer;" 
+     onclick="dgt()" />
+<figcaption> DGT </figcaption>
+</div>
+
+</marquee>
+
+
+<script>
+alert("शासकीय औद्योगिक प्रशिक्षण संस्था बंगोली में आपका  हार्दिक स्वागत है :")
+
+function toggleMode(){
+
+    document.body.classList.toggle("dark-mode");
+
+    let btn = document.getElementById("btn");
+
+    if(document.body.classList.contains("dark-mode")){
+        btn.innerHTML = "☀️ Light Mode";
+    }else{
+        btn.innerHTML = "🌙 Dark Mode";
+    }
+
+}
+
+function openImageLink() {
+    let userConfirm = confirm("इस इमेज पर क्लिक करने पर sidh portal open होगी ");
+    if (userConfirm) {
+        window.open("https://www.skillindiadigital.gov.in/home", "_blank"); // Naye tab mein open
+    }
+}
+
+
+
+function dgt() {
+    let userConfirm = confirm("इस इमेज पर क्लिक करने पर dgt portal open होगी ");
+    if (userConfirm) {
+        window.open("https://dgt.gov.in/en", "_blank"); // Naye tab mein open
+    }
+}
+
+
+
+function showTime(){
+
+    let d = new Date();
+
+    let h = d.getHours();
+    let m = d.getMinutes();
+    let s = d.getSeconds();
+
+    if(h < 10) h = "0" + h;
+    if(m < 10) m = "0" + m;
+    if(s < 10) s = "0" + s;
+
+    document.getElementById("clock").innerHTML =
+    h + ":" + m + ":" + s;
+}
+
+showTime();
+setInterval(showTime,1000);
+
+
+
+
+
+
+
+const monthYear=document.getElementById("monthYear");
+const days=document.getElementById("days");
+
+let date=new Date();
+
+function renderCalendar(){
+
+days.innerHTML="";
+
+const month=date.getMonth();
+const year=date.getFullYear();
+
+const months=[
+"January","February","March","April","May","June",
+"July","August","September","October","November","December"
+];
+
+monthYear.innerHTML=months[month]+" "+year;
+
+let firstDay=new Date(year,month,1).getDay();
+
+let totalDays=new Date(year,month+1,0).getDate();
+
+for(let i=0;i<firstDay;i++){
+
+days.innerHTML+="<div></div>";
+
+}
+
+for(let i=1;i<=totalDays;i++){
+
+let today=new Date();
+
+if(i===today.getDate() &&
+month===today.getMonth() &&
+year===today.getFullYear()){
+
+days.innerHTML+=`<div class="today">${i}</div>`;
+
+}else{
+
+days.innerHTML+=`<div>${i}</div>`;
+
+}
+
+}
+
+}
+
+renderCalendar();
+
+document.getElementById("prev").addEventListener("click",function(){
+
+date.setMonth(date.getMonth()-1);
+
+renderCalendar();
+
+});
+
+document.getElementById("next").addEventListener("click",function(){
+
+date.setMonth(date.getMonth()+1);
+
+renderCalendar();
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+<footer class="footer">
+
+<div class="footer-box">
+
+<div class="footer-section">
+<h2 style=color:blue;>Govt ITI Bangoli</h2>
+<p>शासकीय औद्योगिक प्रशिक्षण संस्था बंगोली</p>
+<p>ग्राम- बंगोली, सारागांव, थाना- खरोरा, जिला- रायपुर (छ.ग.)</p>
+</div>
+
+<div class="footer-section">
+<h2 style=color:blue; >Contact Us</h2>
+<p>📞 Mobile: +91-7000302352</p>
+<p>📧 Email: itibangoli@gmail.com</p>
+<p>🕘 Office Time: 9.30:00 AM - 5:30 PM</p>
+</div>
+
+<div class="footer-section">
+<h2 style=color:blue;>Important Links</h2>
+
+<p><a href="https://dgt.gov.in" target="_blank">DGT</a></p>
+
+<p><a href="https://www.msde.gov.in" target="_blank">MSDE</a></p>
+
+<p><a href="https://www.ncvtmis.gov.in" target="_blank">NCVT MIS</a></p>
+
+<p><a href="https://www.skillindia.gov.in" target="_blank">Skill India</a></p>
+
+</div>
+
+<div class="footer-section">
+<h2 style=color:blue; >Follow Us</h2>
+
+<a href="#"><img src="facebook.png" width="35"></a>
+
+<a href="#"><img src="insta.png" width="35"></a>
+
+<a href="#"><img src="youtube.png" width="35"></a>
+
+<a href="#"><img src="whatsapp.png" width="35"></a>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright">
+© 2026 Govt ITI Bangoli | All Rights Reserved <br>
+Designed By <b style=color:brown;>Mr. Mukesh Kumar Ahir</b>
+</p>
+
+</footer>
+
+
+</body>
+</html>
